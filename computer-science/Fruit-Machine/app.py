@@ -1,26 +1,20 @@
 from random import choice
 from time import sleep
 
-#PUSH TO GITHUB
-true = True
-false = False
-none = None
-
 print("Fruit Machine")
 
 reel = ["cherry", "bell", "lemmon", "grape"]
 amountOfTimes = int(0)
 
 # To change is looping or not
-lopping = true
-numberGoes = int(1)
+lopping = True
+numberGoes = int(0)
 credit = int(0)
 
-
 # if user wants to play again
- def playAgain():
-     money = none
-    lopping = true
+def playAgain():
+    money = None
+    lopping = True
 
 
 while lopping:
