@@ -1,66 +1,67 @@
 from random import choice
 from time import sleep
 
-print("Fruit Machine")
+# Options of items
+reel = ["cherry", "bell", "lemon", "grape"]
 
-reel = ["cherry", "bell", "lemmon", "grape"]
-amountOfTimes = int(0)
+# Varible to show how many times user has played
+playTimes = int(1)
 
-# To change is looping or not
-lopping = True
-numberGoes = int(0)
-credit = int(0)
+# User enters in amout of money
+money = int(input("Enter in a amount of money "))
 
-# if user wants to play again
+# while loop varible
+looping = True
+
+# Winings varible
+credit = int(money)
+
+# For if user wants to play again
 def playAgain():
-    money = None
-    lopping = True
+    credit = int(money)
+    looping = True
 
+while looping:
+    # Add 50 to credit so user gets more credits when they win
+    credit = credit + 50
 
-while lopping:
-    # Get random item from reel array and store it in a variole
+    # Select random reel
     reel1 = choice(reel)
     reel2 = choice(reel)
     reel3 = choice(reel)
     reel4 = choice(reel)
-    money = int(input("please enter money "))
-    # Take one away from money variole
+
+    # Prints out each reel to the screen
+    print(f"You have had {playTimes} rounds")
+    print(reel1, reel2, reel3, reel4)
+    print()
+
+    if (reel1 == reel2 == reel3 == reel4):
+        print("You Win!")
+        print(f"Your winings is {credit}")
+        looping = False
+
+    # Add one to play time
+    playTimes = playTimes + 1
+
+    # MONEY
+    # Take one away from the money variable
     money = money - 1
-    # Add one to the amount of times user has had a go
-    amountOfTimes = amountOfTimes + 1
-    # Print the amount of goes you have had
-    print("You have had (%d) attempts" % numberGoes)
-    # Print the results
-    print(reel1 + " "+reel2+" "+reel3 + " "+reel4)
-    # Wait two seconds
-    sleep(2)
-    # Change the number of goes to plus one
-    numberGoes = numberGoes + 1
-    # Check if user has run out of money
-    if money == 0:
-        print(
-                "Sorry you have run out of money : ( \npay more money for more goes or play again later")
+
+    # If money = 0 stop looping
+    if money <= 0:
+        print("Sorry you have run out of money : ( \npay more money for more goes or play again later")
         print()
-        print()
-        lopping = "false"
-        again = input("play again y/n ")
+
+        # If game is over ask if user wants to play again
+        again = input("Play again y/n ")
+
         if again.lower() == "y":
             playAgain()
-            numberGoes = int(1)
+            money = int(input("Enter in a amount of money "))
+            playTimes = int(1)
         else:
-            lopping = "false"
-        # If user gets all three slots in the row
-        if reel1 == reel2 and reel1 == reel3 and reel1 == reel4:
-            print("Jackpot")
-            credit = credit + 1
-            print(credit)
-            sleep(2)
-            print()
-            print()
-            lopping = "false"
-            again = input("play again y/n ")
-            if again.lower() == "y":
-                playAgain()
-                numberGoes = int(1)
-            else:
-                lopping = "false"
+            looping = False
+
+    # Sleep for a sceond so loop is not one afeter another
+    sleep(0.2)
