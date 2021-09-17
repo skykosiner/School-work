@@ -1,1 +1,8 @@
-# Yes I do have a lot of my school notes and projects for some subjects public on github
+# This is my school work yes
+## Why?
+- I use MacOS and linux and I like to have my notes in obsidian. So I use
+  this to sync my notes between each device with a github repo
+
+## What else you want in this README?
+- The playlist I listen to when doing school work most of the time?: https://music.apple.com/gb/playlist/code-upbeat/pl.u-b3b8VPDhyXpGvkA
+# Well seriously what else do you want?
