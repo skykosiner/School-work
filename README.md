@@ -1,4 +1,5 @@
 # This is my school work yes
+- Some of my work is in goodnotes so not all of my notes is on this repo
 ## Why?
 - I use MacOS and linux and I like to have my notes in obsidian. So I use
   this to sync my notes between each device with a github repo
