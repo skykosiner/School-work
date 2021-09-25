@@ -1,5 +1,3 @@
-TEST
-
 # This is my school work yes
 - Some of my work is in goodnotes so not all of my notes is on this repo
 ## Why?
