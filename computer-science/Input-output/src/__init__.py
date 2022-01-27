@@ -1,1 +1,1 @@
-from .randomNumber import Number
+from .randomNumber import number

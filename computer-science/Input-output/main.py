@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from src import Number
+from src import number
 
-number = Number(0, 5)
+number = number(0, 5)
 
 numberGuess = input("Guess a number between 0 and 5: ")
 
