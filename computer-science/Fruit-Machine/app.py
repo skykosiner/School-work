@@ -1,6 +1,8 @@
 from random import choice
 from time import sleep
 
+#TODO: test
+
 # Options of items
 reel = ["cherry", "bell", "lemon", "grape"]
 
