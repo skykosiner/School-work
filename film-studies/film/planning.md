@@ -3,6 +3,8 @@ Title: Planning for final project to be filmed
 Date: 5 April 2022
 ---
 
+## Title ideas:
+
 ## My basic idea
 ### Scene 1
 The main protagonist is hacking (just open htop, with a bit of vim and
@@ -21,7 +23,7 @@ and starts to say something along the lines of:
 > Well you may be wondering how I got into this situation, well in order to find that out we need go back 3 months
 ### Scene 2
 Start off with saying to mom or someone else, I'm going to take the dogs for a
-walk. After the protagonist gets out of the house and reach the end of athe
+walk. After the protagonist gets out of the house and reach the end of the
 drive way we cut to a bedroom to the back of a bad guy, while at the back we
 here a gun shot. Then cut back to the protagonist where the phone rings.
 
