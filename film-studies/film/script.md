@@ -6,6 +6,7 @@ Date: 25th May 2022
 ## Key
 * Anything in [] means some sort of camera shot
 * () editing note
+* {} is random stuff
 
 ### Scene 1
 [Start close up on laptop with vim and htop open. Main protagonist is clearly
