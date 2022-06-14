@@ -1,5 +1,5 @@
 # What is the bottom number in the periodic table?
-* The bottom number is the atomic number
+* topThe bottom number is the atomic number
 ## What is the atomic number?
 * The number of protons in an atom of an element is its atomic number
 <br /> Remember that:

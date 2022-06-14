@@ -9,12 +9,13 @@ Date: 25th May 2022
 
 ## What are the 8 characteristic of living things?
 MRS GREHN - to remember
+
 1. Movement
-2. Desperation
-3. Reposed to surroundings
+2. Respiration
+3. Sensitivity
 4. Growth and develop
 5. Reproduce
-6. Excrete
+6. Excrete - Removal of waste products
 7. Homeostasis
 8. Nutrition
 
