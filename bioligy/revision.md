@@ -33,11 +33,11 @@ MRS GREHN - to remember
 * Don't talk about breathing in the answer, respiration is not breathing
 * Don't say anything about creating, or producing energy
 * Respiration is a chemical process that takes place in the cells
-* Energy is realised by glucose
+* Energy is realized by glucose
 
 Respiration is a cellular process by which energy is released from
 glucose in the presence of oxygen. Respiration is the processes
-that gives you energy. There is two forms of respiration. Aerobic
+that gives you energy. There are two forms of respiration. Aerobic
 respiration, this occurs when there is oxygen. Anaerobic
 respiration, this occurs when there is a lack of oxygen
 
